@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    margin: 20px 0;
+}
+
+#family-tree-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.node {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #ffcc80;
+    border: 1px solid #ffa726;
+    text-align: center;
+}
+
+.connections {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.connection-line {
+    width: 2px;
+    height: 20px;
+    background-color: #ffa726;
+    margin: 0 5px;
+}
